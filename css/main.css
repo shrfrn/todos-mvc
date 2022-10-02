@@ -1,0 +1,102 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 30px
+}
+
+.importance {
+    width: 90px;
+}
+
+.wraper {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid rgb(250, 248, 133);
+    overflow: auto;
+}
+
+.trans {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid rgb(250, 248, 133);
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.filter-container {
+    background-color: rgb(250, 248, 133);
+    opacity: 1;
+    padding: 10px;
+}
+
+.stats-container {
+    background-color: rgb(247, 247, 226);
+    height: 39px;
+    opacity: 1;
+}
+
+.stats-container span {
+    color: rgb(175, 55, 12);
+}
+
+.todo-list {
+    text-align: left;
+    font-family: 'Handlee', cursive;
+    font-size: 15px
+}
+
+li {
+    margin: 7px
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+input {
+    border-radius: 3px
+}
+
+li span {
+    color: rgb(143, 135, 135)
+}
+
+button {
+    color: rgb(175, 55, 12);
+    background: snow;
+    border-radius: 3px
+}
